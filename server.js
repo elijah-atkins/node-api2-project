@@ -2,7 +2,6 @@ const express = require('express');
 const server = express();
 
 const postRouter = require('./posts/post-router');
-const commentRouter = require('./comments/comments-router')
 
 server.use(express.json());
 
